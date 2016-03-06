@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F3992571BCDC89D0071522C /* MyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3992561BCDC89D0071522C /* MyPartViewController.swift */; };
+		5F39925B1BCEC86F0071522C /* SelfishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39925A1BCEC86F0071522C /* SelfishViewController.swift */; };
+		5F39925D1BCEC8900071522C /* SelfSeekingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39925C1BCEC8900071522C /* SelfSeekingViewController.swift */; };
+		5F39925F1BCEC8A20071522C /* DishonestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F39925E1BCEC8A20071522C /* DishonestViewController.swift */; };
+		5F3992611BCEC8B00071522C /* FearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3992601BCEC8B00071522C /* FearViewController.swift */; };
+		5F3992651BCF00650071522C /* Resentment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3992641BCF00650071522C /* Resentment.swift */; };
+		5FC5C0B81BC2FA75001A958F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0B71BC2FA75001A958F /* AppDelegate.swift */; };
+		5FC5C0BA1BC2FA75001A958F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0B91BC2FA75001A958F /* ViewController.swift */; };
+		5FC5C0BD1BC2FA75001A958F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC5C0BB1BC2FA75001A958F /* Main.storyboard */; };
+		5FC5C0C01BC2FA75001A958F /* RSNTMNT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0BE1BC2FA75001A958F /* RSNTMNT.xcdatamodeld */; };
+		5FC5C0C21BC2FA75001A958F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC5C0C11BC2FA75001A958F /* Assets.xcassets */; };
+		5FC5C0C51BC2FA75001A958F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC5C0C31BC2FA75001A958F /* LaunchScreen.storyboard */; };
+		5FC5C0D01BC2FA75001A958F /* RSNTMNTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0CF1BC2FA75001A958F /* RSNTMNTTests.swift */; };
+		5FC5C0DB1BC2FA75001A958F /* RSNTMNTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0DA1BC2FA75001A958F /* RSNTMNTUITests.swift */; };
+		5FC5C0E91BC3046C001A958F /* StartNewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0E81BC3046C001A958F /* StartNewEntryViewController.swift */; };
+		5FC5C0EB1BC33375001A958F /* AffectsMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5C0EA1BC33375001A958F /* AffectsMyViewController.swift */; };
+		5FD4E60E1BC477F8001DDD39 /* SendItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4E60D1BC477F8001DDD39 /* SendItViewController.swift */; };
+		8A313A391C2F6AD300E3D83F /* logoRSNTMNTtransparent.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A313A381C2F6AD300E3D83F /* logoRSNTMNTtransparent.gif */; };
+		8A313A3F1C2F763A00E3D83F /* logoRSNTMNTxsTrans.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8A313A3E1C2F763A00E3D83F /* logoRSNTMNTxsTrans.gif */; };
+		8A38075C1C2F4E27009DD5E9 /* logoRSNTMNT.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A38075B1C2F4E27009DD5E9 /* logoRSNTMNT.png */; };
+		8A5DA0E21C6DAE2A007C0A92 /* PrayersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DA0E11C6DAE2A007C0A92 /* PrayersCollectionViewController.swift */; };
+		8A5DA0E41C6DB2D2007C0A92 /* PrayerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5DA0E31C6DB2D2007C0A92 /* PrayerCollectionCell.swift */; };
+		8A799ECA1C015C280015DF90 /* grayTriangle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A799EC91C015C280015DF90 /* grayTriangle.jpg */; };
+		8A799ECC1C028D6B0015DF90 /* doubleTri.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8A799ECB1C028D6B0015DF90 /* doubleTri.JPG */; };
+		8A799ED01C02908D0015DF90 /* orangeCirc1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A799ECF1C02908D0015DF90 /* orangeCirc1.jpg */; };
+		8A799ED21C02952C0015DF90 /* triangleSandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A799ED11C02952B0015DF90 /* triangleSandwich.jpg */; };
+		8AF12E8A1C34786F00ABA16B /* Fraud Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF12E861C34786F00ABA16B /* Fraud Small-50.png */; };
+		8AF12E8B1C34786F00ABA16B /* Scream Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF12E871C34786F00ABA16B /* Scream Small-50.png */; };
+		8AF12E8C1C34786F00ABA16B /* Spiderweb Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF12E881C34786F00ABA16B /* Spiderweb Small-50.png */; };
+		8AF12E8D1C34786F00ABA16B /* Under Pressure Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AF12E891C34786F00ABA16B /* Under Pressure Small-50.png */; };
+		8AF2D63F1C13BF1400601294 /* IMG_0147.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8AF2D63E1C13BF1400601294 /* IMG_0147.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FC5C0CC1BC2FA75001A958F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC5C0AC1BC2FA75001A958F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC5C0B31BC2FA75001A958F;
+			remoteInfo = RSNTMNT;
+		};
+		5FC5C0D71BC2FA75001A958F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FC5C0AC1BC2FA75001A958F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FC5C0B31BC2FA75001A958F;
+			remoteInfo = RSNTMNT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F3992561BCDC89D0071522C /* MyPartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyPartViewController.swift; path = ../MyPartViewController.swift; sourceTree = "<group>"; };
+		5F39925A1BCEC86F0071522C /* SelfishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfishViewController.swift; path = ../SelfishViewController.swift; sourceTree = "<group>"; };
+		5F39925C1BCEC8900071522C /* SelfSeekingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelfSeekingViewController.swift; path = ../SelfSeekingViewController.swift; sourceTree = "<group>"; };
+		5F39925E1BCEC8A20071522C /* DishonestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DishonestViewController.swift; path = ../DishonestViewController.swift; sourceTree = "<group>"; };
+		5F3992601BCEC8B00071522C /* FearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FearViewController.swift; path = ../FearViewController.swift; sourceTree = "<group>"; };
+		5F3992641BCF00650071522C /* Resentment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resentment.swift; path = ../Resentment.swift; sourceTree = "<group>"; };
+		5FC5C0B41BC2FA75001A958F /* RSNTMNT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSNTMNT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC5C0B71BC2FA75001A958F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FC5C0B91BC2FA75001A958F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FC5C0BC1BC2FA75001A958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FC5C0BF1BC2FA75001A958F /* RSNTMNT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RSNTMNT.xcdatamodel; sourceTree = "<group>"; };
+		5FC5C0C11BC2FA75001A958F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FC5C0C41BC2FA75001A958F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FC5C0C61BC2FA75001A958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC5C0CB1BC2FA75001A958F /* RSNTMNTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSNTMNTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC5C0CF1BC2FA75001A958F /* RSNTMNTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNTMNTTests.swift; sourceTree = "<group>"; };
+		5FC5C0D11BC2FA75001A958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC5C0D61BC2FA75001A958F /* RSNTMNTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSNTMNTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FC5C0DA1BC2FA75001A958F /* RSNTMNTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSNTMNTUITests.swift; sourceTree = "<group>"; };
+		5FC5C0DC1BC2FA75001A958F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC5C0E81BC3046C001A958F /* StartNewEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartNewEntryViewController.swift; path = ../StartNewEntryViewController.swift; sourceTree = "<group>"; };
+		5FC5C0EA1BC33375001A958F /* AffectsMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AffectsMyViewController.swift; path = ../AffectsMyViewController.swift; sourceTree = "<group>"; };
+		5FD4E60D1BC477F8001DDD39 /* SendItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendItViewController.swift; path = ../SendItViewController.swift; sourceTree = "<group>"; };
+		8A313A381C2F6AD300E3D83F /* logoRSNTMNTtransparent.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logoRSNTMNTtransparent.gif; path = ../../../Desktop/logoRSNTMNTtransparent.gif; sourceTree = "<group>"; };
+		8A313A3E1C2F763A00E3D83F /* logoRSNTMNTxsTrans.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logoRSNTMNTxsTrans.gif; path = ../../../Desktop/logoRSNTMNTxsTrans.gif; sourceTree = "<group>"; };
+		8A38075B1C2F4E27009DD5E9 /* logoRSNTMNT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoRSNTMNT.png; path = ../../../Desktop/logoRSNTMNT.png; sourceTree = "<group>"; };
+		8A5DA0E11C6DAE2A007C0A92 /* PrayersCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrayersCollectionViewController.swift; path = ../PrayersCollectionViewController.swift; sourceTree = "<group>"; };
+		8A5DA0E31C6DB2D2007C0A92 /* PrayerCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrayerCollectionCell.swift; path = ../PrayerCollectionCell.swift; sourceTree = "<group>"; };
+		8A799EC91C015C280015DF90 /* grayTriangle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grayTriangle.jpg; path = ../../../Downloads/grayTriangle.jpg; sourceTree = "<group>"; };
+		8A799ECB1C028D6B0015DF90 /* doubleTri.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = doubleTri.JPG; path = ../../../Downloads/doubleTri.JPG; sourceTree = "<group>"; };
+		8A799ECF1C02908D0015DF90 /* orangeCirc1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orangeCirc1.jpg; path = ../../../Downloads/orangeCirc1.jpg; sourceTree = "<group>"; };
+		8A799ED11C02952B0015DF90 /* triangleSandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = triangleSandwich.jpg; path = ../../../Downloads/triangleSandwich.jpg; sourceTree = "<group>"; };
+		8AF12E861C34786F00ABA16B /* Fraud Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Fraud Small-50.png"; path = "../../../Desktop/Fraud Small-50.png"; sourceTree = "<group>"; };
+		8AF12E871C34786F00ABA16B /* Scream Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Scream Small-50.png"; path = "../../../Desktop/Scream Small-50.png"; sourceTree = "<group>"; };
+		8AF12E881C34786F00ABA16B /* Spiderweb Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Spiderweb Small-50.png"; path = "../../../Desktop/Spiderweb Small-50.png"; sourceTree = "<group>"; };
+		8AF12E891C34786F00ABA16B /* Under Pressure Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Under Pressure Small-50.png"; path = "../../../Desktop/Under Pressure Small-50.png"; sourceTree = "<group>"; };
+		8AF2D63E1C13BF1400601294 /* IMG_0147.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0147.PNG; path = ../../../Downloads/IMG_0147.PNG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FC5C0B11BC2FA75001A958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0C81BC2FA75001A958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0D31BC2FA75001A958F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FC5C0AB1BC2FA75001A958F = {
+			isa = PBXGroup;
+			children = (
+				5FC5C0B61BC2FA75001A958F /* RSNTMNT */,
+				5FC5C0CE1BC2FA75001A958F /* RSNTMNTTests */,
+				5FC5C0D91BC2FA75001A958F /* RSNTMNTUITests */,
+				5FC5C0B51BC2FA75001A958F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FC5C0B51BC2FA75001A958F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5C0B41BC2FA75001A958F /* RSNTMNT.app */,
+				5FC5C0CB1BC2FA75001A958F /* RSNTMNTTests.xctest */,
+				5FC5C0D61BC2FA75001A958F /* RSNTMNTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FC5C0B61BC2FA75001A958F /* RSNTMNT */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5C0B71BC2FA75001A958F /* AppDelegate.swift */,
+				5F3992641BCF00650071522C /* Resentment.swift */,
+				5FC5C0B91BC2FA75001A958F /* ViewController.swift */,
+				5FC5C0E81BC3046C001A958F /* StartNewEntryViewController.swift */,
+				5FC5C0EA1BC33375001A958F /* AffectsMyViewController.swift */,
+				8A5DA0E11C6DAE2A007C0A92 /* PrayersCollectionViewController.swift */,
+				8A5DA0E31C6DB2D2007C0A92 /* PrayerCollectionCell.swift */,
+				5F3992561BCDC89D0071522C /* MyPartViewController.swift */,
+				5F39925A1BCEC86F0071522C /* SelfishViewController.swift */,
+				5F39925C1BCEC8900071522C /* SelfSeekingViewController.swift */,
+				5F39925E1BCEC8A20071522C /* DishonestViewController.swift */,
+				5F3992601BCEC8B00071522C /* FearViewController.swift */,
+				5FD4E60D1BC477F8001DDD39 /* SendItViewController.swift */,
+				5FC5C0BB1BC2FA75001A958F /* Main.storyboard */,
+				8A313A3E1C2F763A00E3D83F /* logoRSNTMNTxsTrans.gif */,
+				8A313A381C2F6AD300E3D83F /* logoRSNTMNTtransparent.gif */,
+				8AF12E881C34786F00ABA16B /* Spiderweb Small-50.png */,
+				8AF12E871C34786F00ABA16B /* Scream Small-50.png */,
+				8AF12E861C34786F00ABA16B /* Fraud Small-50.png */,
+				8AF12E891C34786F00ABA16B /* Under Pressure Small-50.png */,
+				8A38075B1C2F4E27009DD5E9 /* logoRSNTMNT.png */,
+				8A799EC91C015C280015DF90 /* grayTriangle.jpg */,
+				8A799ECB1C028D6B0015DF90 /* doubleTri.JPG */,
+				8A799ED11C02952B0015DF90 /* triangleSandwich.jpg */,
+				8AF2D63E1C13BF1400601294 /* IMG_0147.PNG */,
+				8A799ECF1C02908D0015DF90 /* orangeCirc1.jpg */,
+				5FC5C0C11BC2FA75001A958F /* Assets.xcassets */,
+				5FC5C0C31BC2FA75001A958F /* LaunchScreen.storyboard */,
+				5FC5C0C61BC2FA75001A958F /* Info.plist */,
+				5FC5C0BE1BC2FA75001A958F /* RSNTMNT.xcdatamodeld */,
+			);
+			path = RSNTMNT;
+			sourceTree = "<group>";
+		};
+		5FC5C0CE1BC2FA75001A958F /* RSNTMNTTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5C0CF1BC2FA75001A958F /* RSNTMNTTests.swift */,
+				5FC5C0D11BC2FA75001A958F /* Info.plist */,
+			);
+			path = RSNTMNTTests;
+			sourceTree = "<group>";
+		};
+		5FC5C0D91BC2FA75001A958F /* RSNTMNTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FC5C0DA1BC2FA75001A958F /* RSNTMNTUITests.swift */,
+				5FC5C0DC1BC2FA75001A958F /* Info.plist */,
+			);
+			path = RSNTMNTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FC5C0B31BC2FA75001A958F /* RSNTMNT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC5C0DF1BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNT" */;
+			buildPhases = (
+				5FC5C0B01BC2FA75001A958F /* Sources */,
+				5FC5C0B11BC2FA75001A958F /* Frameworks */,
+				5FC5C0B21BC2FA75001A958F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSNTMNT;
+			productName = RSNTMNT;
+			productReference = 5FC5C0B41BC2FA75001A958F /* RSNTMNT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FC5C0CA1BC2FA75001A958F /* RSNTMNTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC5C0E21BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNTTests" */;
+			buildPhases = (
+				5FC5C0C71BC2FA75001A958F /* Sources */,
+				5FC5C0C81BC2FA75001A958F /* Frameworks */,
+				5FC5C0C91BC2FA75001A958F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC5C0CD1BC2FA75001A958F /* PBXTargetDependency */,
+			);
+			name = RSNTMNTTests;
+			productName = RSNTMNTTests;
+			productReference = 5FC5C0CB1BC2FA75001A958F /* RSNTMNTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FC5C0D51BC2FA75001A958F /* RSNTMNTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FC5C0E51BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNTUITests" */;
+			buildPhases = (
+				5FC5C0D21BC2FA75001A958F /* Sources */,
+				5FC5C0D31BC2FA75001A958F /* Frameworks */,
+				5FC5C0D41BC2FA75001A958F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FC5C0D81BC2FA75001A958F /* PBXTargetDependency */,
+			);
+			name = RSNTMNTUITests;
+			productName = RSNTMNTUITests;
+			productReference = 5FC5C0D61BC2FA75001A958F /* RSNTMNTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FC5C0AC1BC2FA75001A958F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Au;
+				TargetAttributes = {
+					5FC5C0B31BC2FA75001A958F = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 75E565JXPM;
+					};
+					5FC5C0CA1BC2FA75001A958F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5FC5C0B31BC2FA75001A958F;
+					};
+					5FC5C0D51BC2FA75001A958F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 5FC5C0B31BC2FA75001A958F;
+					};
+				};
+			};
+			buildConfigurationList = 5FC5C0AF1BC2FA75001A958F /* Build configuration list for PBXProject "RSNTMNT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FC5C0AB1BC2FA75001A958F;
+			productRefGroup = 5FC5C0B51BC2FA75001A958F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FC5C0B31BC2FA75001A958F /* RSNTMNT */,
+				5FC5C0CA1BC2FA75001A958F /* RSNTMNTTests */,
+				5FC5C0D51BC2FA75001A958F /* RSNTMNTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FC5C0B21BC2FA75001A958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF12E8D1C34786F00ABA16B /* Under Pressure Small-50.png in Resources */,
+				8A799ECC1C028D6B0015DF90 /* doubleTri.JPG in Resources */,
+				8AF12E8C1C34786F00ABA16B /* Spiderweb Small-50.png in Resources */,
+				8AF2D63F1C13BF1400601294 /* IMG_0147.PNG in Resources */,
+				8AF12E8A1C34786F00ABA16B /* Fraud Small-50.png in Resources */,
+				5FC5C0C51BC2FA75001A958F /* LaunchScreen.storyboard in Resources */,
+				8A313A391C2F6AD300E3D83F /* logoRSNTMNTtransparent.gif in Resources */,
+				8AF12E8B1C34786F00ABA16B /* Scream Small-50.png in Resources */,
+				8A799ED21C02952C0015DF90 /* triangleSandwich.jpg in Resources */,
+				8A799ECA1C015C280015DF90 /* grayTriangle.jpg in Resources */,
+				5FC5C0C21BC2FA75001A958F /* Assets.xcassets in Resources */,
+				8A799ED01C02908D0015DF90 /* orangeCirc1.jpg in Resources */,
+				8A38075C1C2F4E27009DD5E9 /* logoRSNTMNT.png in Resources */,
+				8A313A3F1C2F763A00E3D83F /* logoRSNTMNTxsTrans.gif in Resources */,
+				5FC5C0BD1BC2FA75001A958F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0C91BC2FA75001A958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0D41BC2FA75001A958F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FC5C0B01BC2FA75001A958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5C0BA1BC2FA75001A958F /* ViewController.swift in Sources */,
+				8A5DA0E41C6DB2D2007C0A92 /* PrayerCollectionCell.swift in Sources */,
+				8A5DA0E21C6DAE2A007C0A92 /* PrayersCollectionViewController.swift in Sources */,
+				5F39925D1BCEC8900071522C /* SelfSeekingViewController.swift in Sources */,
+				5F39925B1BCEC86F0071522C /* SelfishViewController.swift in Sources */,
+				5F3992571BCDC89D0071522C /* MyPartViewController.swift in Sources */,
+				5F3992611BCEC8B00071522C /* FearViewController.swift in Sources */,
+				5FC5C0B81BC2FA75001A958F /* AppDelegate.swift in Sources */,
+				5F3992651BCF00650071522C /* Resentment.swift in Sources */,
+				5FC5C0C01BC2FA75001A958F /* RSNTMNT.xcdatamodeld in Sources */,
+				5FD4E60E1BC477F8001DDD39 /* SendItViewController.swift in Sources */,
+				5F39925F1BCEC8A20071522C /* DishonestViewController.swift in Sources */,
+				5FC5C0EB1BC33375001A958F /* AffectsMyViewController.swift in Sources */,
+				5FC5C0E91BC3046C001A958F /* StartNewEntryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0C71BC2FA75001A958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5C0D01BC2FA75001A958F /* RSNTMNTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC5C0D21BC2FA75001A958F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5C0DB1BC2FA75001A958F /* RSNTMNTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FC5C0CD1BC2FA75001A958F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC5C0B31BC2FA75001A958F /* RSNTMNT */;
+			targetProxy = 5FC5C0CC1BC2FA75001A958F /* PBXContainerItemProxy */;
+		};
+		5FC5C0D81BC2FA75001A958F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FC5C0B31BC2FA75001A958F /* RSNTMNT */;
+			targetProxy = 5FC5C0D71BC2FA75001A958F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FC5C0BB1BC2FA75001A958F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC5C0BC1BC2FA75001A958F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FC5C0C31BC2FA75001A958F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FC5C0C41BC2FA75001A958F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FC5C0DD1BC2FA75001A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FC5C0DE1BC2FA75001A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FC5C0E01BC2FA75001A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RSNTMNT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5FC5C0E11BC2FA75001A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = RSNTMNT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5FC5C0E31BC2FA75001A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSNTMNTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSNTMNT.app/RSNTMNT";
+			};
+			name = Debug;
+		};
+		5FC5C0E41BC2FA75001A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSNTMNTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSNTMNT.app/RSNTMNT";
+			};
+			name = Release;
+		};
+		5FC5C0E61BC2FA75001A958F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSNTMNTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSNTMNT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5FC5C0E71BC2FA75001A958F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSNTMNTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.RSNTMNTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSNTMNT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FC5C0AF1BC2FA75001A958F /* Build configuration list for PBXProject "RSNTMNT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC5C0DD1BC2FA75001A958F /* Debug */,
+				5FC5C0DE1BC2FA75001A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC5C0DF1BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC5C0E01BC2FA75001A958F /* Debug */,
+				5FC5C0E11BC2FA75001A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC5C0E21BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC5C0E31BC2FA75001A958F /* Debug */,
+				5FC5C0E41BC2FA75001A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FC5C0E51BC2FA75001A958F /* Build configuration list for PBXNativeTarget "RSNTMNTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FC5C0E61BC2FA75001A958F /* Debug */,
+				5FC5C0E71BC2FA75001A958F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FC5C0BE1BC2FA75001A958F /* RSNTMNT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FC5C0BF1BC2FA75001A958F /* RSNTMNT.xcdatamodel */,
+			);
+			currentVersion = 5FC5C0BF1BC2FA75001A958F /* RSNTMNT.xcdatamodel */;
+			path = RSNTMNT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FC5C0AC1BC2FA75001A958F /* Project object */;
+}
