@@ -46,12 +46,19 @@ class StartNewEntryViewController: UIViewController, UITextViewDelegate, UITextF
         
         self.descriptionTextView.delegate = self
         self.descriptionTextView.returnKeyType = .Done
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
             
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
@@ -65,7 +72,7 @@ class StartNewEntryViewController: UIViewController, UITextViewDelegate, UITextF
     
     override func viewDidAppear(animated: Bool) {
         view.backgroundColor = firstColor
-        self.animateBackground()
+        //self.animateBackground()
     }
     
     //add an NSTimer in here to preserve memory?

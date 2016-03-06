@@ -12,7 +12,7 @@ import MessageUI
 
 class SendItViewController: UIViewController, MFMailComposeViewControllerDelegate, UITextViewDelegate {
 
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameTextView: UITextView!
     @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var affectsListLabel: UILabel!
     @IBOutlet weak var selfishTextView: UITextView!
@@ -40,15 +40,16 @@ class SendItViewController: UIViewController, MFMailComposeViewControllerDelegat
     
         self.view.backgroundColor = UIColor( red:0.773, green:0.835, blue:0.796, alpha:1.000)
         
-        self.nameLabel.font = UIFont(name: "Didot-Bold", size: 20.0)
+        self.nameTextView.font = UIFont(name: "Didot-Bold", size: 20.0)
+        self.nameTextView.backgroundColor = UIColor(red:0.773, green:0.835, blue:0.796, alpha:1.000)
         self.descriptionTextView.font = UIFont(name: "Didot-Bold", size: 20.0)
-        
+        self.descriptionTextView.returnKeyType = .Done
         self.affectsListLabel.backgroundColor = UIColor.clearColor()
         self.affectsListLabel.font = UIFont(name: "Didot-Bold", size: 20.0)
-        
+         
         self.affectsMyListTextView.backgroundColor = UIColor.clearColor()
         self.affectsMyListTextView.font = UIFont(name: "Helvetica-Light", size: 14.0)
-        
+        self.affectsMyListTextView.returnKeyType = .Done
         self.myPartLabel.font = UIFont(name: "Didot-Bold", size: 20.0)
         self.dishonestTextView.font = UIFont(name: "Helvetica-Light", size: 12.0)
         self.fearTextView.font = UIFont(name: "Helvetica-Light", size: 12.0)
@@ -56,7 +57,7 @@ class SendItViewController: UIViewController, MFMailComposeViewControllerDelegat
         self.selfSeekingTextView.font = UIFont(name: "Helvetica-Light", size: 12.0)
         
         self.who = Resentment.SharedInstance.details["subjectName"] as! String
-        self.nameLabel.text = "I have a resentment against " + who
+        self.nameTextView.text = "I have a resentment against " + who
         self.why = Resentment.SharedInstance.details["description"] as! String
         self.descriptionTextView.text = "because: " + why
         
@@ -82,6 +83,9 @@ class SendItViewController: UIViewController, MFMailComposeViewControllerDelegat
             self.impact = Resentment.SharedInstance.details["impacted"] as! Array
         }
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        
         getImpact()
         
         getMyParts()
@@ -104,6 +108,10 @@ class SendItViewController: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBAction func backToMyPartTapped(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     

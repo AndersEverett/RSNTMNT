@@ -35,11 +35,18 @@ class FearViewController: UIViewController, UITextViewDelegate {
         gradient.startPoint = CGPoint(x: 0.50, y: 0.00)
         gradient.endPoint = CGPoint(x: 0.50, y: 1.00)
         self.view.layer.insertSublayer(gradient, atIndex: 0)
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
